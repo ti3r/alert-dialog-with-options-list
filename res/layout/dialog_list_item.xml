@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/dialog_list_item_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/dialog_list_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:text="Texto del Item"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>
